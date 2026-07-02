@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torcida dos Dibrados F.C 🐍</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root { --roxo: #6A0DAD; --roxo-claro: #9B4DDB; --preto: #0d0a14; --card: #1a1424; --texto: #e8e0f0; --texto-suave: #b0a5c0; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--preto); color: var(--texto); line-height: 1.6; }
+  .hero { text-align: center; padding: 4rem 1.5rem 3rem; background: radial-gradient(circle at 50% 0%, rgba(106,13,173,0.45), transparent 65%), var(--preto); }
+  .cobra { width: 140px; height: 140px; border-radius: 50%; border: 3px solid var(--roxo-claro); box-shadow: 0 0 40px rgba(106,13,173,0.7); margin-bottom: 1.2rem; object-fit: cover; animation: flutua 3s ease-in-out infinite; }
+  @keyframes flutua { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+  .hero h1 { font-size: 2.6rem; font-weight: 800; background: linear-gradient(90deg, var(--roxo-claro), #d9b3ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+  .hero p { color: var(--texto-suave); font-size: 1.1rem; max-width: 600px; margin: 0 auto 2rem; }
+  .btn-discord { display: inline-flex; align-items: center; gap: 0.6rem; padding: 1.1rem 2.5rem; border-radius: 50px; background: linear-gradient(90deg, #5865F2, #7983f5); color: white; text-decoration: none; font-weight: 800; font-size: 1.15rem; box-shadow: 0 8px 25px rgba(88,101,242,0.5); transition: transform 0.2s; }
+  .btn-discord:hover { transform: translateY(-4px); }
+  section { max-width: 1000px; margin: 0 auto; padding: 3.5rem 1.5rem; }
+  .titulo { text-align: center; font-size: 2rem; font-weight: 800; color: var(--roxo-claro); margin-bottom: 0.5rem; }
+  .titulo-sub { text-align: center; color: var(--texto-suave); margin-bottom: 2.5rem; }
+  .sobre { background: var(--card); border-radius: 20px; padding: 2rem; border: 1px solid rgba(155,77,219,0.2); color: var(--texto-suave); font-size: 1.05rem; }
+  .sobre strong { color: var(--texto); }
+  .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+  .galeria img { width: 100%; border-radius: 16px; border: 2px solid rgba(155,77,219,0.3); box-shadow: 0 6px 20px rgba(0,0,0,0.4); transition: transform 0.2s; }
+  .galeria img:hover { transform: scale(1.03); }
+  .videos { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; }
+  .video-wrap { border-radius: 16px; overflow: hidden; border: 2px solid rgba(155,77,219,0.3); background: var(--card); aspect-ratio: 9/16; }
+  .video-wrap iframe { width: 100%; height: 100%; border: 0; }
+  .cta { text-align: center; background: radial-gradient(circle at 50% 50%, rgba(106,13,173,0.35), transparent 70%); border-radius: 24px; padding: 3rem 1.5rem; margin: 1rem; }
+  .cta h2 { font-size: 1.8rem; margin-bottom: 1rem; color: var(--texto); }
+  .cta p { color: var(--texto-suave); margin-bottom: 2rem; }
+  footer { text-align: center; padding: 2.5rem 1.5rem; border-top: 1px solid rgba(155,77,219,0.2); color: var(--texto-suave); font-size: 0.9rem; }
+  footer strong { color: var(--roxo-claro); }
+</style>
+</head>
+<body>
+  <div class="hero">
+    <img src="https://i.imgur.com/JFsY739.png" alt="Dibrados FC" class="cobra">
+    <h1>Torcida dos Dibrados F.C 🐍</h1>
+    <p>A casa da torcida mais raçuda do futebol. Resenha, jogos ao vivo, sorteios e a melhor galera. Bora torcer junto! 💜⚽</p>
+    <a href="https://discord.gg/P4PJmkUQP" class="btn-discord" target="_blank">🎮 Entrar no Discord</a>
+  </div>
+  <section>
+    <h2 class="titulo">Sobre a Torcida</h2>
+    <p class="titulo-sub">Muito mais que um servidor</p>
+    <div class="sobre">
+      <p>O <strong>Torcida dos Dibrados F.C</strong> é o ponto de encontro da nossa torcida. Aqui a gente <strong>resenha os jogos</strong>, acompanha os lances ao vivo, curte memes, participa de <strong>sorteios</strong> e faz parte de uma comunidade de verdade.</p>
+      <br>
+      <p>Tem canais de voz pra resenha durante os jogos, espaço pra debate, conteúdos exclusivos e uma staff sempre pronta pra ajudar. Se você é <strong>Dibrado de coração</strong>, teu lugar é aqui. 🐍💜</p>
+    </div>
+  </section>
+  <section>
+    <h2 class="titulo">📸 A Torcida</h2>
+    <p class="titulo-sub">Momentos do nosso time</p>
+    <div class="galeria">
+      <img src="https://i.imgur.com/T67owOt.png" alt="Dibrados FC">
+      <img src="https://i.imgur.com/X8IE5Pj.png" alt="Dibrados FC">
+    </div>
+  </section>
+  <section>
+    <h2 class="titulo">⚽ Lances e Gols</h2>
+    <p class="titulo-sub">Os melhores momentos</p>
+    <div class="videos">
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/_bM40fsCiHs" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/eLC6IwkvJTs" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/4umxV4x_SKs" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/ZTbTfcvmZGE" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/xXZcnIdnvgo" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/Bq1fDuDeISc" allowfullscreen></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/db9n5COFr4s" allowfullscreen></iframe></div>
+    </div>
+  </section>
+  <div class="cta">
+    <h2>Bora fazer parte? 🐍</h2>
+    <p>Entra no servidor e vem torcer com a gente!</p>
+    <a href="https://discord.gg/P4PJmkUQP" class="btn-discord" target="_blank">🎮 Entrar no Discord</a>
+  </div>
+  <footer>
+    <p><strong>Torcida dos Dibrados F.C 🐍</strong></p>
+    <p>Feito com 💜 pela torcida</p>
+  </footer>
+</body>
+</html>
